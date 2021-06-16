@@ -8,7 +8,7 @@ var paths = {
   pages: ['src/*.html'],
 };
 gulp.task('copy-html', function () {
-  return gulp.src(paths.pages).pipe(gulp.dest('dist'));
+  return gulp.src(paths.pages).pipe(gulp.dest('docs'));
 });
 gulp.task(
   'default',
@@ -30,6 +30,6 @@ gulp.task(
       .pipe(buffer())
       .pipe(sourcemaps.init({ loadMaps: true }))
       .pipe(sourcemaps.write('./'))
-      .pipe(gulp.dest('dist'));
+      .pipe(gulp.dest('docs'));
   })
 );
