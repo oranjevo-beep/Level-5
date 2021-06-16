@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Hello World!</title>
+    <link
+      rel="stylesheet"
+      href="/node_modules/@fortawesome/fontawesome-free/css/all.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="counter-container">
+      <div class="head">
+        <h1>Timer</h1>
+        <p>Укажиту время в минутах</p>
+      </div>
+
+      <div class="counter-display">
+        <button class="btn less-btn">
+          <i class="fas fa-chevron-left"></i>
+        </button>
+        <p id="countdown"></p>
+        <button class="btn more-btn">
+          <i class="fas fa-chevron-right"></i>
+        </button>
+      </div>
+      <button class="btn start-btn">start</button>
+    </div>
+    <script src="https://momentjs.com/downloads/moment.min.js"></script>
+    <script src="bundle.js"></script>
+  </body>
+</html>

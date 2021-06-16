@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+body {
+  font-family: 'Courgette', cursive;
+  margin: 0;
+
+  box-sizing: border-box;
+}
+
+.counter-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.counter-display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.counter-display p {
+  margin: 0 2rem;
+  font-size: 2rem;
+  color: #222;
+}
+p {
+  text-align: center;
+  font-size: 1.25rem;
+  color: rgb(100, 99, 99);
+}
+
+.head {
+  margin-bottom: 1rem;
+}
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  letter-spacing: 1px;
+  color: #222;
+}
+.btn {
+  display: block;
+  padding: 0.375rem 1rem;
+  border: 0;
+  font-size: 1rem;
+  color: #555;
+  background-color: rgba(241, 238, 238, 0.4);
+  box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.3);
+  transform: skewX(-20deg);
+  border-radius: 1px;
+}
+.start-btn {
+  background-color: rgb(140, 230, 6);
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-top: 2rem;
+}
+.btn:hover {
+  box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.5);
+}
